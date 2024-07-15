@@ -1,7 +1,7 @@
 public class Rectangle extends Shape {
 
-    double width;
-    double length;
+    private double width;
+    private double length;
 
     public Rectangle() {
         width=1.0;

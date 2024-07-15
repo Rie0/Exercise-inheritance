@@ -3,20 +3,20 @@ public class Square extends Rectangle{
 
     }
     public Square(double side){
-       super.length = side;
+       super.setLength(side);
     }
     public Square(double side, String color, boolean filled) {
-       super.length = side;
-       super.color=color;
-       super.filled=filled;
+       super.setLength(side);
+       super.setColor(color);
+       super.setFilled(filled);
     }
     //Methods
 
     public void setSide(double side){
-         super.length=side;
+         super.setLength(side);
     }
     public double getSide(){
-        return super.length;
+        return super.getLength();
     }
 
     @Override
